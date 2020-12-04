@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(33, 160, 160);
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: darkblue;
+    transition: 1s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer{
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
